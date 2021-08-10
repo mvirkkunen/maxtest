@@ -1,0 +1,16 @@
+[package]
+name = "maxtest"
+version = "0.1.0"
+authors = ["Matti Virkkunen <mvirkkunen@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+cortex-m = "0.6.2"
+cortex-m-rt = "0.6.12"
+embedded-hal = "0.2.3"
+jlink_rtt = "0.1.0"
+nb = "0.1.2"
+panic_rtt = "0.2.0"
+stm32f1xx-hal = { version = "0.5.3", features = ["stm32f103"] }
+hd44780-driver = "0.3.0"
+heapless = "0.5.3"
